@@ -1,0 +1,99 @@
+   0 cd ..
+   1 cd home
+   2 mkdir animals
+   3 tree /animals
+   4 ls
+   5 three
+   6 cd 
+   7 cd .. 
+   8 cd /home/animals
+   9 mkdir dogs cats fish
+  10 ls
+  11 cd dogs
+  12 touch pluto
+  13 ls
+  14 touch /home/animals/cats/garfied
+  15 three /home/animals/cats
+  16 ls /home/animals/cats
+  17 touch /home/animals/nemo
+  18 cd
+  19 ls /animals
+  20 /home/animals
+  21 ls/home/animals/
+  22 tree
+  23 cd ..
+  24 cd /home/amimals
+  25 cd home
+  26 cd animals
+  27 ls
+  28 tree
+  29 clear
+  30 cd
+  31 /home
+  32 cd tmp
+  33 cd /home
+  34 ls
+  35 cd
+  36 cd ..
+  37 ls
+  38 cd /tmp
+  39 touch adam
+  40 ls
+  41 mkdir /home/humans
+  42 ls /home
+  43 ls
+  44 cp /tmp/adam /home/humans/
+  45 cd
+  46 cd ..
+  47 cd gome
+  48 cd /home
+  49 tree
+  50 ls
+  51 cd
+  52 cd ..
+  53 cd tmp
+  54 touch evA
+  55 ls
+  56 mv /evA /opt/eve
+  57 cd
+  58 mv /tmp/evA /opt/eve
+  59 ls /opt
+  60 mv /opt/eve /home/humans/eve
+  61 ls
+  62 ls/home/humans
+  63 ls /home
+  64 cd ..
+  65 cd /home
+  66 cd /hmans
+  67 ls
+  68 three
+  69 ls /home
+  70 ls/home/humans
+  71 ls /animals
+  72 ls /home/animals
+  73 cd /humans
+  74 ls
+  75 three
+  76 cd
+  77 three /home
+  78 cd ..
+  79 cd /home
+  80 three
+  81 three animals
+  82 ls
+  83 ls /himans
+  84 cd
+  85 three /home
+  86 cd ..
+  87 three
+  88 ls
+  89 cd /home
+  90 three
+  91 cd /humans
+  92 cd
+  93 cd ..
+  94 cd /opt
+  95 ls
+  96 ls /home/humans
+  97 history
+  98 history > history.txt
