@@ -5,24 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4a7a74c-3c13-4185-828e-2a47674c2c19" name="Changes" comment="123">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/My_Project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HomeWorkLinux/HomeWorkLinux/HomeWorkLinux1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringOperationExample/StringOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringOperationExample/WorkWithSteings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringOperationExample/WorkWithSteings2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaHM/Hm1/Hm2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaHM/Hm1/Hm3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaHM/Hm1/Hm4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaHM/Hm1/Hm4Methode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaHM/Hm1/Hm5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaHM/Hm1/Hm5Methode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leson/Leson4/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leson/Leson4/CatDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaHM/Hm1/Hm6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaHM/Hm2/Hm1Op1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaHM/Hm2/Hm1Op2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaHM/Hm2/Hm1Op3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/My_Project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javaHM/Hm1/Hm5Methode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaHM/Hm1/Hm5Methode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,10 +42,16 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/My_project_p/BasicJava240123",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/My_project_p/My_Project",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
     "ChangesTree.GroupingKeys": [
@@ -73,9 +68,48 @@
       <recent name="StringOperationExample" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Hm5">
-    <configuration name="Hm2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaHM.Hm1.Hm2" />
+  <component name="RunManager" selected="Application.Hm1Op1">
+    <configuration name="Hm1Op1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaHM.Hm2.Hm1Op1" />
+      <module name="My_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaHM.Hm2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Hm1Op2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaHM.Hm2.Hm1Op2" />
+      <module name="My_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaHM.Hm2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Hm1Op3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaHM.Hm2.Hm1Op3" />
+      <module name="My_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaHM.Hm2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Hm6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaHM.Hm1.Hm6" />
       <module name="My_Project" />
       <extension name="coverage">
         <pattern>
@@ -87,51 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hm3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaHM.Hm1.Hm3" />
+    <configuration name="Hm7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaHM.Hm1.Hm7" />
       <module name="My_Project" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="javaHM.Hm1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Hm4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaHM.Hm1.Hm4" />
-      <module name="My_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javaHM.Hm1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Hm5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaHM.Hm1.Hm5" />
-      <module name="My_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javaHM.Hm1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringOperationExample.StringOperations" />
-      <module name="My_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StringOperationExample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Hm5" />
-        <item itemvalue="Application.Hm4" />
-        <item itemvalue="Application.Hm3" />
-        <item itemvalue="Application.Hm2" />
-        <item itemvalue="Application.StringOperations" />
+        <item itemvalue="Application.Hm1Op1" />
+        <item itemvalue="Application.Hm1Op3" />
+        <item itemvalue="Application.Hm1Op2" />
+        <item itemvalue="Application.Hm6" />
+        <item itemvalue="Application.Hm7" />
       </list>
     </recent_temporary>
   </component>
@@ -157,8 +152,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675241726108</updated>
+      <workItem from="1676191257860" duration="8589000" />
+      <workItem from="1676215751527" duration="7026000" />
+      <workItem from="1676232837483" duration="1275000" />
+      <workItem from="1676274894119" duration="2650000" />
+      <workItem from="1676285826798" duration="1307000" />
     </task>
+    <task id="LOCAL-00001" summary="123">
+      <created>1675538435675</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675538435675</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="123" />
