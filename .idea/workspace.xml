@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4a7a74c-3c13-4185-828e-2a47674c2c19" name="Changes" comment="HomeWorkLinus_2">
+    <list default="true" id="f4a7a74c-3c13-4185-828e-2a47674c2c19" name="Changes" comment="HomeWorkJava_3">
       <change afterPath="$PROJECT_DIR$/src/javaHM/Hm2/Hm1Op4.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/javaHM/Hm2/Hm1Op5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaHM/Hm3/ArrayHm1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaHM/Hm3/ArrayHm2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaHM/Hm3/Bonjour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaHM/Hm3/Vivi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +31,13 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -41,29 +47,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/My_project_p/My_Project",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/My_project_p/BasicJava240123&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "module",
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;module&quot;,
+      &quot;directory&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\My_project_p\My_Project\src\HomeWorkLinux" />
@@ -72,20 +78,7 @@
       <recent name="StringOperationExample" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Hm1Op5">
-    <configuration name="ArrayHm1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaHM.Hm3.ArrayHm1" />
-      <module name="My_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javaHM.Hm3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Bonjour">
     <configuration name="ArrayHm2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaHM.Hm3.ArrayHm2" />
       <module name="My_Project" />
@@ -99,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hm1Op1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaHM.Hm2.Hm1Op1" />
+    <configuration name="Bonjour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaHM.Hm3.Bonjour" />
       <module name="My_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaHM.Hm2.*" />
+          <option name="PATTERN" value="javaHM.Hm3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,13 +131,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Vivi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaHM.Hm3.Vivi" />
+      <module name="My_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaHM.Hm3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Bonjour" />
+        <item itemvalue="Application.Vivi" />
         <item itemvalue="Application.Hm1Op5" />
         <item itemvalue="Application.Hm1Op4" />
         <item itemvalue="Application.ArrayHm2" />
-        <item itemvalue="Application.ArrayHm1" />
-        <item itemvalue="Application.Hm1Op1" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +169,10 @@
       <workItem from="1676285826798" duration="1378000" />
       <workItem from="1676709654439" duration="122000" />
       <workItem from="1676736385409" duration="14162000" />
-      <workItem from="1676922260435" duration="684000" />
+      <workItem from="1676922260435" duration="831000" />
+      <workItem from="1676924460941" duration="750000" />
+      <workItem from="1677084244830" duration="4677000" />
+      <workItem from="1677259278665" duration="47000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1675538435675</created>
@@ -186,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676709768484</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="HomeWorkJava_3">
+      <created>1676924405653</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676924405653</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +211,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="123" />
     <MESSAGE value="HomeWorkLinus_2" />
-    <option name="LAST_COMMIT_MESSAGE" value="HomeWorkLinus_2" />
+    <MESSAGE value="HomeWorkJava_3" />
+    <option name="LAST_COMMIT_MESSAGE" value="HomeWorkJava_3" />
   </component>
 </project>
