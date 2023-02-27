@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4a7a74c-3c13-4185-828e-2a47674c2c19" name="Changes" comment="HomeWorkJava_3">
+    <list default="true" id="f4a7a74c-3c13-4185-828e-2a47674c2c19" name="Changes" comment="HomeWork java3">
       <change afterPath="$PROJECT_DIR$/src/javaHM/Hm2/Hm1Op4.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/javaHM/Hm2/Hm1Op5.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/javaHM/Hm3/Bonjour.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/javaHM/Hm3/Vivi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaHM/Hm4/Hm4Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaHM/Hm4/Hm4UtT2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,20 +80,7 @@
       <recent name="StringOperationExample" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Bonjour">
-    <configuration name="ArrayHm2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaHM.Hm3.ArrayHm2" />
-      <module name="My_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javaHM.Hm3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Hm4Task2">
     <configuration name="Bonjour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaHM.Hm3.Bonjour" />
       <module name="My_Project" />
@@ -105,8 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hm1Op4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaHM.Hm2.Hm1Op4" />
+    <configuration name="Hm1Op5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaHM.Hm2.Hm1Op5" />
       <module name="My_Project" />
       <extension name="coverage">
         <pattern>
@@ -118,12 +107,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hm1Op5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaHM.Hm2.Hm1Op5" />
+    <configuration name="Hm4Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaHM.Hm4.Hm4Task1" />
       <module name="My_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaHM.Hm2.*" />
+          <option name="PATTERN" value="javaHM.Hm4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Hm4Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaHM.Hm4.Hm4Task2" />
+      <module name="My_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaHM.Hm4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Hm4Task2" />
+        <item itemvalue="Application.Hm4Task1" />
         <item itemvalue="Application.Bonjour" />
         <item itemvalue="Application.Vivi" />
         <item itemvalue="Application.Hm1Op5" />
-        <item itemvalue="Application.Hm1Op4" />
-        <item itemvalue="Application.ArrayHm2" />
       </list>
     </recent_temporary>
   </component>
@@ -173,6 +175,8 @@
       <workItem from="1676924460941" duration="750000" />
       <workItem from="1677084244830" duration="4677000" />
       <workItem from="1677259278665" duration="47000" />
+      <workItem from="1677395576790" duration="7552000" />
+      <workItem from="1677483823417" duration="1488000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1675538435675</created>
@@ -202,7 +206,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676924405653</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Homelinux_3">
+      <created>1677395714954</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677395714954</updated>
+    </task>
+    <task id="LOCAL-00006" summary="HomeWork java3">
+      <created>1677403137602</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677403137602</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +230,8 @@
     <MESSAGE value="123" />
     <MESSAGE value="HomeWorkLinus_2" />
     <MESSAGE value="HomeWorkJava_3" />
-    <option name="LAST_COMMIT_MESSAGE" value="HomeWorkJava_3" />
+    <MESSAGE value="Homelinux_3" />
+    <MESSAGE value="HomeWork java3" />
+    <option name="LAST_COMMIT_MESSAGE" value="HomeWork java3" />
   </component>
 </project>
