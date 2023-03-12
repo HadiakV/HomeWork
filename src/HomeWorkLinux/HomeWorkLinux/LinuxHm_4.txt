@@ -1,0 +1,12 @@
+   0 touch /myfirstscript.sh
+   1 ls -l /myfirstscript.sh
+   2 chmod u+x /myfirstscript.sh
+   3 ls -l /myfirstscript.sh
+   4 export USER='VASYL'
+   5 env USER
+   6 env
+   7 nano /myfirstscript.sh
+   8 ./myfirstscript.sh
+   9 cd ..
+  10 ./myfirstscript.sh
+  11 history>istoriya.txt
