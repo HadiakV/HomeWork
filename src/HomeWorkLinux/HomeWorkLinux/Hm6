@@ -1,0 +1,42 @@
+0 cd ..
+   1 touch myscript.sh
+   2 ls
+   3 df -h /
+   4 ls -l
+   5 ls -l /
+   6 vi myscript.sh
+   7 >/var/task/vasyl.txt
+   8 >>/var/task/vasyl.txt
+   9 touch /var/task/vasyl.txt
+  10 vi myscript.sh
+  11 ps -ef
+  12 ps -ef tail -n5
+  13 ps -ef || tail -n5
+  14 ps -ef | tail -n5
+  15 vi myscript.sh
+  16 chmod u+x myscript.sh
+  17 .myscript.sh
+  18 chmod u+r myscript.sh
+  19 .myscript.sh
+  20 ./myscript.sh
+  21 ls /tmp
+  22 ls /tmp/test
+  23 ls /tmp/test/newfile
+  24 vi myscript.sh
+  25 ./myscript.sh
+  26 ls /var
+  27 ls /var/task/
+  28 ls /var/
+  29 ls /var/task/
+  30 vi myscript.sh
+  31 ./myscript.sh
+  32 mv /var/task/vasyl.txt /tmp/
+  33 mv /var/task/vasyl.txt | /tmp/
+  34 vi myscript.sh
+  35 ./myscript.sh
+  36 vi myscript.sh
+  37 ./myscript.sh
+  38 ls /tmp/test/newfile/
+  39 vi myscript.sh
+  40 ./myscript.sh
+  41 history>/history.txt
