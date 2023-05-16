@@ -1,0 +1,4 @@
+SELECT DISTINCT grade FROM students;
+UPDATE students SET grade = grade * 10;
+UPDATE students SET surname = 'Сидоров' WHERE name = 'Олег' AND surname = 'Петров';
+UPDATE students SET grade = grade + 10 WHERE grade <= 31;
