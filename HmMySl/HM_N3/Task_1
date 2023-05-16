@@ -1,0 +1,42 @@
+SELECT
+  d.department_id,
+  MAX(CASE WHEN s.salary > 10000 THEN 1 ELSE 0 END) AS employees
+FROM
+  Departments d
+JOIN
+  Employees s ON d.department_id = d.department_id
+GROUP BY
+  d.department_id;
+  
+  SELECT
+  d.department_id,
+  MIN(CASE WHEN e.salary <= 10000 THEN 0 ELSE 1 END) AS employees
+FROM
+  Departments d
+JOIN
+  Employees e ON d.department_id = e.department_id
+GROUP BY
+  d.department_id
+HAVING
+  all_employees_earning_high = 1;
+  
+  SELECT * FROM Employees
+ORDER BY last_name ASC;
+
+SELECT * FROM Employees
+	ORDER BY salary DESC;
+    
+    SELECT *
+FROM employees
+WHERE department_id IN (60, 90, 110)
+ORDER BY last_name;
+
+SELECT *
+FROM employees
+WHERE job_id = 'STCLERK'
+ORDER BY salary DESC;
+
+SELECT * FROM Employees
+ WHERE first_name LIKE 'D%'
+ ORDER BY last_name ASC;
+ 
