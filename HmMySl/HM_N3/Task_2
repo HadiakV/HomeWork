@@ -1,0 +1,58 @@
+SELECT id, service_class, price
+FROM tickets
+WHERE
+    (service_class = 'Economy' AND price BETWEEN 10000 AND 11000)
+    OR (service_class = 'PremiumEconomy' AND price BETWEEN 20000 AND 30000)
+    OR (service_class = 'Business' AND price > 100000);
+    
+SELECT  side_number, production_year
+FROM airliners
+WHERE `'range'` <= 10000
+ORDER BY  
+	CASE
+		WHEN production_year < 2000 THEN 'Old'
+        WHEN production_year BETWEEN 2000 AND 2010 THEN 'Mid'
+        ELSE 'New'
+    END ASC;
+ 
+SELECT id, trip_id,
+       CASE service_class
+           WHEN 'Economy' THEN price * 0.85
+           WHEN 'Business' THEN price * 0.9
+           WHEN 'PremiumEconomy' THEN price * 0.8
+       END AS newprice
+FROM tickets
+WHERE trip_id IN ('LL4S1G8PQW', '0SE4S0HRRU', 'JQF04Q8I9G');
+
+CREATE TABLE goods (
+	id SERIAL PRIMARY KEY,
+    title VARCHAR(128),
+    quantity INTEGER
+    );
+    
+INSERT INTO goods (title,quantity)
+VALUES('Mamont', 3000), ('T-Rex',10000), ('Bober',500);
+
+ALTER TABLE goods ADD COLUMN price INTEGER DEFAULT 0;
+
+SELECT * FROM goods;
+
+ALTER TABLE goods DROP COLUMN quantity;
+
+ALTER TABLE goods ALTER COLUMN price TYPE DECIMAL(10,2);
+
+ALTER TABLE goods ADD COLUMN description TEXT;
+
+DROP TABLE goods;
+
+CREATE TABLE goods (
+    id SERIAL PRIMARY KEY,
+    title VARCHAR(255),
+    price INTEGER DEFAULT 0
+);
+
+INSERT INTO goods (title, price)
+VALUES ('Product 1', 100), ('Product 2', 200), ('Product 3', 300);
+
+CREATE TABLE new_goods AS
+SELECT id, title, price FROM goods;
