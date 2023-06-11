@@ -1,6 +1,6 @@
-package DailyJournals.JHM_LinkedList;
-
 import java.util.Iterator;
+import java.util.ListIterator;
+import java.util.NoSuchElementException;
 
 public class MyLinkedList implements Iterable<String> {
     private int size = 0;
@@ -78,9 +78,73 @@ public class MyLinkedList implements Iterable<String> {
 //        node.data = "";
 //    }
 
-    public class MyIterator implements Iterator<String> {
-        private int cursor = 0;
+    public class MyIterator implements ListIterator<String> {
+        private int cursor = size - 1;
         private Node current = first;
+
+        @Override
+        public String previous() {
+            if (!hasPrevious()){
+                throw new NoSuchElementException();
+            }
+            String result = current.data;
+            current = current.prev;
+            cursor --;
+            return result;
+        }
+
+        @Override
+        public void add(String value) {
+            Node newNode = new Node(value, current , current.next);
+            if (current != null ){
+                current.next.prev = newNode;
+                current.next = newNode;
+            }else{
+                first = newNode;
+            }
+            size++;
+            cursor++;
+        }
+
+        @Override
+        public void set(String value) {
+            if (current == null){
+                throw new IllegalStateException();
+            }
+            current.data = value;
+        }
+
+        @Override
+        public void remove() {
+            if (current == null){
+                throw new IllegalStateException();
+            }
+            if (current.prev != null){
+                current.prev.next = current.next;
+            }else {
+                first = current.next;
+            }
+            if (current.next != null){
+                current.next.prev = current.prev;
+            }
+            size--;
+            cursor--;
+        }
+
+        @Override
+        public int nextIndex() {
+            return cursor +1;
+        }
+
+        @Override
+        public int previousIndex() {
+            return cursor;
+        }
+
+        @Override
+        public boolean hasPrevious() {
+            return cursor >= 0;
+        }
 
         @Override
         public boolean hasNext() {
@@ -108,3 +172,4 @@ public class MyLinkedList implements Iterable<String> {
         }
     }
 }
+
