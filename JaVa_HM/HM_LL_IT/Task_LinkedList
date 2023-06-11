@@ -1,0 +1,110 @@
+package DailyJournals.JHM_LinkedList;
+
+import java.util.Iterator;
+
+public class MyLinkedList implements Iterable<String> {
+    private int size = 0;
+    private Node first;
+    private Node last;
+
+    public void clear() {
+        size = 0;
+        first = null;
+        last  = null;
+    }
+
+    public void add(String value) {
+        Node newNode = new Node(value,last, null);
+        if (isEmpty()) {
+            first = new Node(value,last ,null);
+            last = first;
+        } else {
+            Node current = first;
+            last.next = newNode;
+            last = newNode;
+            for (int i = 0; i < size - 1; i++) {
+                current = current.next;
+            }
+            current.next = newNode;
+        }
+        size++;
+    }
+
+    public String get(int index) {
+        if (index < 0 || index >= size) {
+            throw new RuntimeException( " Неверный индекс ");
+        }
+        Node current = first;
+        for (int i = 0; i < index; i++) {
+            current = current.next;
+        }
+
+        return current.data;
+    }
+
+    public boolean isEmpty() {
+        return size == 0;
+    }
+
+    public int size() {
+        return size;
+    }
+
+    @Override
+    public String toString() {
+        if (isEmpty()) {
+            return "[]";
+        }
+        // AAA BBB CCC - [AAA, BBB, CCC]
+        StringBuilder builder = new StringBuilder("[");
+        Node current = last;
+        while (current != null) {
+            builder.append(current.data).append(", ");
+            current = current.prev;
+        }
+        builder.setLength(builder.length() - 2);
+        builder.append("]");
+        return builder.toString();
+    }
+
+    @Override
+    public Iterator<String> iterator() {
+        return new MyIterator();
+    }
+//    private void test() {
+//        Node node = new Node("Test", null);
+//        // Почему нам не нужны геттеры и сеттеры.
+//        // Мы имеем прямой доступ к приватным полям внутреннего класса.
+//        node.data = "";
+//    }
+
+    public class MyIterator implements Iterator<String> {
+        private int cursor = 0;
+        private Node current = first;
+
+        @Override
+        public boolean hasNext() {
+            return current != null;
+        }
+
+        @Override
+        public String next() {
+            String result = current.data;
+            current = current.next;
+            return result;
+        }
+    }
+
+    private class Node {
+
+        private Node prev;
+        private String data;
+        private Node next;
+
+        public Node(String data, Node prev , Node next) {
+            this.data = data;
+            this.prev = prev;
+            this.next = next;
+        }
+    }
+}
