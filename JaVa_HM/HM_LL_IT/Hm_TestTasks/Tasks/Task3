@@ -1,0 +1,14 @@
+package DailyJournals.Hm_Test;
+import java.util.Arrays;
+
+public class Task3 {
+    /**Программа для поиска второго по величине элемента в массиве**/
+    public static int findSecondLargest(int[] inputArray){
+        if (inputArray == null || inputArray.length < 2){
+            throw  new IllegalArgumentException("Input array must contain at least two elements");
+        }
+        Arrays.sort(inputArray);
+        System.out.println("The second largest element in the array : " + inputArray[inputArray.length -2]);
+        return inputArray[inputArray.length-2];
+    }
+}
