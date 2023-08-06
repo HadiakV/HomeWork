@@ -1,0 +1,20 @@
+package DailyJournals.Hm_Test;
+import java.util.*;
+
+public class Task2 {
+    /**Программа для удаления повторяющихся элементов из массива**/
+    public static int[] removeDuplicates(int[] inputArray) {
+        Set<Integer> set = new LinkedHashSet<>();
+
+        for (int num : inputArray){
+            set.add(num);
+        }
+        int[] result = new int[set.size()];
+        int index = 0;
+        for (int num : set){
+            result[index++] = num;
+        }
+        System.out.println("Array after eliminating matches : " + result);
+        return result;
+    }
+}
