@@ -1,0 +1,35 @@
+package DailyJournals.Hm_Test;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Task1 {
+    /**
+     * программа для поиска общих элементов
+     * между двумя массивами целых чисел
+     */
+
+    public static int[] findCommonElements(int[] array1, int[] array2) {
+        Set<Integer> set1 = new HashSet<>();
+        Set<Integer> commonElementsSet = new HashSet<>();
+
+        for (int num : array1) {
+            set1.add(num);
+        }
+        for (int num : array2) {
+            if (set1.contains(num)) {
+                commonElementsSet.add(num);
+            }
+        }
+
+        int[] result = new int[commonElementsSet.size()];
+        int index = 0;
+        for (int num : commonElementsSet) {
+            result[index++] = num;
+        }
+
+        System.out.println("Commons elements between two arrays : " + result);
+        return result;
+    }
+
+}
