@@ -1,0 +1,29 @@
+package DailyJournals.Hm_Test;
+import org.junit.Test;
+import static org.junit.Assert.assertArrayEquals;
+
+public class Task1Test {
+    @Test
+    public void testFindCommonElements() {
+        int[] array1 = {1, 2, 5, 5, 8, 9, 7, 10};
+        int[] array2 = {1, 0, 6, 15, 6, 4, 7, 0};
+        int[] expected = {1, 7};
+        assertArrayEquals(expected, Task1.findCommonElements(array1, array2));
+    }
+
+    @Test
+    public void testFindCommonElementsEmpty() {
+        int[] array1 = {1, 2, 3, 4};
+        int[] array2 = {5, 6, 7, 8};
+        int[] expected = {};
+        assertArrayEquals(expected, Task1.findCommonElements(array1, array2));
+    }
+
+    @Test
+    public void testFindCommonElementsNoCommon() {
+        int[] array1 = {1, 2, 3, 4};
+        int[] array2 = {5, 6, 7, 1};
+        int[] expected = {1};
+        assertArrayEquals(expected, Task1.findCommonElements(array1, array2));
+    }
+}
