@@ -1,0 +1,23 @@
+package DailyJournals.Hm_Test;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+public class Task4Test {
+        @Test
+        public void testFindSecondSmallest() {
+            int[] inputArray = {-1, 4, 0, 2, 7, -3};
+            int expected = -1;
+            assertEquals(expected, Task4.findSecondSmallest(inputArray));
+        }
+        @Test
+        public void testFindSecondSmallestDuplicate() {
+            int[] inputArray = {1, 4, 0, 2, 7, 0};
+            int expected = 0;
+            assertEquals(expected, Task4.findSecondSmallest(inputArray));
+        }
+        @Test
+        public void testFindSecondSmallestNegative() {
+            int[] inputArray = {-1, -4, -7, -2, -7, -3};
+            int expected = -7;
+            assertEquals(expected, Task4.findSecondSmallest(inputArray));
+        }
+}
