@@ -1,0 +1,25 @@
+package DailyJournals.Hm_Test;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+public class Task3Test {
+    @Test
+    public void testFindSecondLargest() {
+        int[] inputArray = {-1, 4, 0, 2, 7, -3};
+        int expected = 4;
+        assertEquals(expected, Task3.findSecondLargest(inputArray));
+    }
+
+    @Test
+    public void testFindSecondLargestDuplicate() {
+        int[] inputArray = {1, 4, 0, 2, 7, 4};
+        int expected = 4;
+        assertEquals(expected, Task3.findSecondLargest(inputArray));
+    }
+
+    @Test
+    public void testFindSecondLargestNegative() {
+        int[] inputArray = {-1, -4, -7, -2, -7, -3};
+        int expected = -2;
+        assertEquals(expected, Task3.findSecondLargest(inputArray));
+    }
+}
