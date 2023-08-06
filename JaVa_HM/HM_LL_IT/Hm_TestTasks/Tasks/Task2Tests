@@ -1,0 +1,25 @@
+package DailyJournals.Hm_Test;
+import org.junit.Test;
+import static org.junit.Assert.assertArrayEquals;
+public class Task2Test {
+    @Test
+    public void testRemoveDuplicates() {
+        int[] inputArray = {0, 3, -2, 4, 3, 2};
+        int[] expected = {0, 3, -2, 4, 2};
+        assertArrayEquals(expected,Task2.removeDuplicates(inputArray));
+    }
+
+    @Test
+    public void testRemoveDuplicatesEmpty() {
+        int[] inputArray = {};
+        int[] expected = {};
+        assertArrayEquals(expected, Task2.removeDuplicates(inputArray));
+    }
+
+    @Test
+    public void testRemoveDuplicatesNoDuplicates() {
+        int[] inputArray = {1, 2, 3, 4, 5};
+        int[] expected = {1, 2, 3, 4, 5};
+        assertArrayEquals(expected, Task2.removeDuplicates(inputArray));
+    }
+}
