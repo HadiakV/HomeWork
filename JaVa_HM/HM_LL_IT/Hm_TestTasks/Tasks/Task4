@@ -1,0 +1,16 @@
+package DailyJournals.Hm_Test;
+import java.util.Arrays;
+
+public class Task4 {
+    /**Программа для поиска второго наименьшего элемента в массиве:**/
+
+    public static int findSecondSmallest(int[] inputArray){
+        if (inputArray == null || inputArray.length < 2){
+            throw new IllegalArgumentException("Input array must contains at least two elements");
+        }
+
+        Arrays.sort(inputArray);
+        System.out.println("The second smallest element of the array : " + inputArray[1]);
+        return inputArray[1];
+    }
+}
